@@ -19,7 +19,7 @@ export default function Restaurant() {
   return (
     <div className='row mt-4'>
       <button onClick={() => setSelectedButton('pizza')}>Pizza</button>
-      <button onClick={() => setSelectedButton('carrot')}>Carrot</button>
+      <button onClick={() => setSelectedButton('salad')}>Salad</button>
       <button onClick={() => setSelectedButton('onion')}>Onion</button>
       {recipes.map((ele) => (
         <div className='col-md-4' key={ele.recipe_id}>
